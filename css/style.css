@@ -92,15 +92,14 @@ a:hover {
 	animation-name: opa1;		/*@keyframesの指定*/
 	animation-duration: 3S;		/*アニメーションの実行時間*/
 	animation-fill-mode: both;	/*アニメーションの待機中は最初のキーフレームを維持、終了後は最後のキーフレームを維持。*/
+	text-align: center;
 }
 
-.home header #logo-msg {
-	position: absolute;left: 50%;top: 75%;transform: translate(-50%, -50%);
-	animation-name: opa1;		/*@keyframesの指定*/
-	animation-duration: 3S;		/*アニメーションの実行時間*/
+.home header #logo span {
 	color: white;
 	font-family: 'Itim', cursive, "ヒラギノ丸ゴ Pro", "Hiragino Maru Gothic Pro", "メイリオ", Meiryo, Osaka;
 	font-size: 1.2rem;
+	font-weight: normal;
 }
 
 /*トップページの画像ロゴ(png画像)を、デフォルトでは非表示にする*/
